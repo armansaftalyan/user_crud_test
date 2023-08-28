@@ -1,0 +1,30 @@
+.user-modal {
+  width: 600px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    fieldset {
+      display: flex;
+      flex-direction: column;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      button {
+        border: none;
+        padding: 10px 20px;
+        background: cornflowerblue;
+        border-radius: 10px;
+        cursor: pointer;
+        &:last-of-type {
+          background: gray;
+        }
+      }
+    }
+  }
+}

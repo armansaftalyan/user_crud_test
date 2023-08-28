@@ -1,0 +1,21 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--chip-bg);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5000;
+  transition: all 0.5s ease;
+  background: rgba(40, 40, 40, 0.5);
+
+  &.open {
+    visibility: visible;
+    opacity: 1;
+  }
+}
